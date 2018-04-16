@@ -15,6 +15,8 @@
 		C611E04D2080743F001C80A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C611E04B2080743F001C80A9 /* LaunchScreen.storyboard */; };
 		C611E0582080743F001C80A9 /* CoreDataSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C611E0572080743F001C80A9 /* CoreDataSampleTests.swift */; };
 		C611E0632080743F001C80A9 /* CoreDataSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C611E0622080743F001C80A9 /* CoreDataSampleUITests.swift */; };
+		C611E07120807641001C80A9 /* CoreDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C611E07020807641001C80A9 /* CoreDataObject.swift */; };
+		C611E0762080E0B2001C80A9 /* AddStudentViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C611E0752080E0B2001C80A9 /* AddStudentViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C611E05E2080743F001C80A9 /* CoreDataSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C611E0622080743F001C80A9 /* CoreDataSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSampleUITests.swift; sourceTree = "<group>"; };
 		C611E0642080743F001C80A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C611E07020807641001C80A9 /* CoreDataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataObject.swift; sourceTree = "<group>"; };
+		C611E0752080E0B2001C80A9 /* AddStudentViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C611E04B2080743F001C80A9 /* LaunchScreen.storyboard */,
 				C611E04E2080743F001C80A9 /* Info.plist */,
 				C611E04620807436001C80A9 /* CoreDataSample.xcdatamodeld */,
+				C611E07020807641001C80A9 /* CoreDataObject.swift */,
+				C611E0752080E0B2001C80A9 /* AddStudentViewControler.swift */,
 			);
 			path = CoreDataSample;
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C611E04220807436001C80A9 /* ViewController.swift in Sources */,
+				C611E07120807641001C80A9 /* CoreDataObject.swift in Sources */,
 				C611E04820807436001C80A9 /* CoreDataSample.xcdatamodeld in Sources */,
 				C611E04020807436001C80A9 /* AppDelegate.swift in Sources */,
+				C611E0762080E0B2001C80A9 /* AddStudentViewControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
