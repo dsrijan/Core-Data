@@ -2,7 +2,7 @@
 //  AddStudentViewControler.swift
 //  CoreDataSample
 //
-//  Created by DRISHTI-IT on 13/04/18.
+//  Created by Srijan on 13/04/18.
 //  Copyright © 2018 Srijan. All rights reserved.
 //
 
